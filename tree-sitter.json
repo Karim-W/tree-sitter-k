@@ -1,0 +1,20 @@
+{
+  "grammars": [
+    {
+      "name": "k",
+      "camelcase": "K",
+      "scope": "source.k",
+      "path": ".",
+      "file-types": ["k"],
+      "highlights": "queries/highlights.scm",
+      "locals": "queries/locals.scm",
+      "injection-regex": "^k$"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "A tree-sitter grammar for the k programming language",
+    "links": { "repository": "https://example.invalid/tree-sitter-k" }
+  }
+}
